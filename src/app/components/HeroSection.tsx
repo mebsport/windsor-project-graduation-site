@@ -20,13 +20,13 @@ const HeroSection = () => {
               }}
               sequence={[
                 'We emphasize making the choice not to drink alcohol or consume drugs when celebrating a special milestone',
-                1500,
+                2500,
                 'We eliminate teen decisions about drinking or drugs on graduation night, and the entire community is assured that graduates are in a safe environment',
-                1500,
+                2500,
                 'We ensure that every graduate has a party to attend; no one is excluded or left out for social or financial reasons',
-                1500,
+                2500,
                 'We allow all graduates to celebrate together in one location',
-                1500,
+                2500,
               ]}
               wrapper='span'
               speed={50}
@@ -34,9 +34,9 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-black text-base sm:text-lg lg:text-xl mb-6'>
-            Windsor High School's Project Graduation gives our graduates a safe,
+            Windsor High School&apos;s Project Graduation gives our graduates a safe,
             sober and memorable night of Graduation. The mission of PROJECT
-            GRADUATION is to protect our new Graduates at the time they're most
+            GRADUATION is to protect our new Graduates at the time they&apos;re most
             at risk. Since Project Graduation was instituted, not a single
             Windsor graduate has died from alcohol, drug or traffic accidents on
             graduation night.

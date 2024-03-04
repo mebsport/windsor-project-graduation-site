@@ -34,12 +34,12 @@ const HeroSection = () => {
             />
           </h1>
           <p className='text-black text-base sm:text-lg lg:text-xl mb-6'>
-            Windsor High School&apos;s Project Graduation gives our graduates a safe,
-            sober and memorable night of Graduation. The mission of PROJECT
-            GRADUATION is to protect our new Graduates at the time they&apos;re most
-            at risk. Since Project Graduation was instituted, not a single
-            Windsor graduate has died from alcohol, drug or traffic accidents on
-            graduation night.
+            Windsor High School&apos;s Project Graduation gives our graduates a
+            safe, sober and memorable night of Graduation. The mission of
+            PROJECT GRADUATION is to protect our new Graduates at the time
+            they&apos;re most at risk. Since Project Graduation was instituted,
+            not a single Windsor graduate has died from alcohol, drug or traffic
+            accidents on graduation night.
           </p>
           <div className='place-self-center'>
             <button
@@ -66,11 +66,11 @@ const HeroSection = () => {
         </div>
         <div className='col-span-5 place-self-center mt-4 lg:mt-0'>
           <Image
-            src='/Images/WindsorW.png'
-            alt='Windsor High School Logo'
+            src='/Images/WHS_Project_Graduation_Logo.png'
+            alt='WHS Project Graduation Logo'
             className='transform-translate-x-1/2 transform-translate-y-1/2 top-1/2 left-1/2'
-            width={300}
-            height={300}
+            width={500}
+            height={500}
           />
         </div>
       </div>

@@ -38,27 +38,27 @@ const NavBar = () => {
   const [navBarOpen, setNavBarOpen] = useState(false)
 
   return (
-    <nav className='fixed top-0 right-0 left-0 z-10 bg-[#8c2724] bg-opacity-100'>
+    <nav className='fixed top-0 right-0 left-0 z-10 bg-[#c7c7c7] bg-opacity-100'>
       <div className='flex flex-wrap items-center justify-between mx-auto px-4 py-2 '>
         <Image
-          src='/Images/WindsorPublicSchoolsLogo.svg'
-          alt='Windsor Publiuc Schools Logo'
+          src='/Images/WHS_Project_Graduation_Logo.png'
+          alt='WHS Project Graduation Logo'
           className='transform-translate-x-1/2 transform-translate-y-1/2 top-1/2 left-1/2'
           width={150}
-          height={100}
+          height={150}
         />
         <div className='mobile-menu block md:hidden'>
           {!navBarOpen ? (
             <button
               onClick={() => setNavBarOpen(true)}
-              className='flex items-center px-3 py-2 border rounded border-[#f1f1f1] text-[#f1f1f1] hover:text-white hover:border-white'
+              className='flex items-center px-3 py-2 border rounded border-black text-black hover:text-[#8c2724] hover:border-[#8c2724]'
             >
               <Bars3Icon className='h-5 w-5' />
             </button>
           ) : (
             <button
               onClick={() => setNavBarOpen(false)}
-              className='flex items-center px-3 py-2 border rounded border-[#f1f1f1] text-[#f1f1f1] hover:text-white hover:border-white'
+              className='flex items-center px-3 py-2 border rounded border-black text-black hover:text-[#8c2724] hover:border-[#8c2724]'
             >
               <XMarkIcon className='h-5 w-5' />
             </button>

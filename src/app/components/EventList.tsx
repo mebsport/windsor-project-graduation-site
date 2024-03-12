@@ -7,8 +7,8 @@ const eventList = []
 const EventList = () => {
   return (
     <div>
-      <div id='normal'></div>
-      <div id='small'></div>
+      <div id='normal'><h1>NORMAL</h1></div>
+      <div id='small'><h1>SMALL</h1></div>
     </div>
   )
 }

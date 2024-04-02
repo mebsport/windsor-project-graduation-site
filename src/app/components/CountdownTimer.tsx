@@ -51,27 +51,27 @@ const CountdownTimer = () => {
           <h1 className='justify-center text-xl md:text-2xl text-center font-bold'>
             WHS Class Of 2024 Graduation Countdown
           </h1>
-          <div className='justify-center text-2xl md:text-4xl font-bold flex border-2 p-8 bg-opacity-15 bg-gray-400 rounded-md'>
-            <div className='flex flex-col text-center md:pl-4 md:pr-4 pl-2 pr-2'>
-              <span className='text-2xl md:text-4xl'>{days}</span>
-              <span className='text-xl'>Days</span>
+          <div className='justify-center text-xl md:text-2xl lg:text-4xl font-bold flex border-2 p-8 bg-opacity-15 bg-gray-400 rounded-md'>
+            <div className='flex flex-col text-center lg:pl-4 lg:pr-4 md:pl-2 md:pr-2 pl-0 pr-0'>
+              <span className='text-xl md:text-2xl lg:text-4xl'>{days}</span>
+              <span className='text-sm md:text-xl'>Days</span>
             </div>
             <span className=''>:</span>
-            <div className='flex flex-col text-center md:pl-4 md:pr-4 pl-2 pr-2'>
-              <span className='text-2xl md:text-4xl'>{hours}</span>
-              <span className='text-xl'>Hours</span>
+            <div className='flex flex-col text-center lg:pl-4 lg:pr-4 md:pl-2 md:pr-2 pl-0 pr-0'>
+              <span className='text-xl md:text-2xl lg:text-4xl'>{hours}</span>
+              <span className='text-sm md:text-xl'>Hours</span>
             </div>
             <span className='divider'>:</span>
 
-            <div className='flex flex-col text-center md:pl-4 md:pr-4 pl-2 pr-2'>
-              <span className='text-2xl md:text-4xl'>{minutes}</span>
-              <span className='text-xl'>Minutes</span>
+            <div className='flex flex-col text-center lg:pl-4 lg:pr-4 md:pl-2 md:pr-2 pl-0 pr-0'>
+              <span className='text-xl md:text-2xl lg:text-4xl'>{minutes}</span>
+              <span className='text-sm md:text-xl'>Minutes</span>
             </div>
             <span className='divider'>:</span>
 
-            <div className='flex flex-col text-center md:pl-4 md:pr-4 pl-2 pr-2'>
-              <span className='text-2xl md:text-4xl'>{seconds}</span>
-              <span className='text-xl'>Seconds</span>
+            <div className='flex flex-col text-center lg:pl-4 lg:pr-4 md:pl-2 md:pr-2 pl-0 pr-0'>
+              <span className='text-xl md:text-2xl lg:text-4xl'>{seconds}</span>
+              <span className='text-sm md:text-xl'>Seconds</span>
             </div>
           </div>
         </div>

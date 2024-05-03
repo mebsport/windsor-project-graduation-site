@@ -2,7 +2,10 @@ import React from 'react'
 
 const AboutSection = () => {
   return (
-    <div id='about'>
+    <div id='about' className='mt-4'>
+      <span className='mt-4 font-bold text-2xl lg:text-4xl text-transparent bg-clip-text bg-gradient-to-r from-[#8c2724] via-black to-[#8c2724]'>
+        What is Project Graduation? {''}
+      </span>
       <p className='mt-6 text-black font-semibold text-base sm:text-lg lg:text-xl mb-6'>
         Project Graduation is an annual event that is exclusively organized for
         the graduating seniors of Windsor High School. The event is aimed at

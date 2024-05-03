@@ -6,7 +6,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Windsor Project Graduation',
-  description: 'WHS Project Graduation',
+  description:
+    "Windsor High School's Project Graduation for the class of 2024 provides a fun and safe enviroments for graudates to celebrate after the big day.",
   icons: {
     icon: ['/favicon.ico?v=4'],
     apple: ['/apple-touch-icon.png?v=4'],

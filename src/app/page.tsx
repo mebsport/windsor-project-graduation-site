@@ -3,6 +3,7 @@ import NavBar from './components/NavBar'
 import HeroSection from './components/HeroSection'
 import CountdownTimer from './components/CountdownTimer'
 import AboutSection from './components/AboutSection'
+// import ImageGallery from './components/ImageGallery'
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
         <HeroSection/>
         <CountdownTimer/>
         <AboutSection/>
+        {/* <ImageGallery/> */}
       </div>
     </main>
   )
